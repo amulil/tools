@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tools"
+version = "0.1.0"
+description = "some tools written by python"
+authors = ["amulil <121340550+amulil@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytube = "^12.1.2"
+moviepy = "^1.0.3"
+youtube-dl = "^2021.12.17"
+youtube-transcript-api = "^0.5.0"
+yt-dlp = "^2023.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
